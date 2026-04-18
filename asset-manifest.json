@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/nestmatch/static/js/main.1319e4ab.js",
+    "main.js": "/nestmatch/static/js/main.c79a1f01.js",
     "index.html": "/nestmatch/index.html",
-    "main.1319e4ab.js.map": "/nestmatch/static/js/main.1319e4ab.js.map"
+    "main.c79a1f01.js.map": "/nestmatch/static/js/main.c79a1f01.js.map"
   },
   "entrypoints": [
-    "static/js/main.1319e4ab.js"
+    "static/js/main.c79a1f01.js"
   ]
 }
