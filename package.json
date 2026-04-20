@@ -1,0 +1,26 @@
+{
+  "name": "nestmatch",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/nestmatch",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "xlsx": "^0.18.5",
+    "leaflet": "^1.9.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version"]
+  }
+}
