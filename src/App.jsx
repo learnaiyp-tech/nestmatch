@@ -1419,8 +1419,8 @@ function MyListingsPage({ setPage, ownerMatches, setOwnerMatches, showToast, use
   const lastSearch    = savedSearches[0] || null;
 
   // Get last tenant search from saved searches (this user only)
-  const savedSearches = getSavedSearches(user.mobile);
-  const lastSearch    = savedSearches[0] || null;
+  // const savedSearches = getSavedSearches(user.mobile);
+  // const lastSearch    = savedSearches[0] || null;
 
   const ownerTotal  = (ownerMatches.high_priority?.length||0) + (ownerMatches.medium?.length||0) + (ownerMatches.low?.length||0);
   const tenantTotal = (tenantMatches?.high_priority?.length||0) + (tenantMatches?.medium?.length||0) + (tenantMatches?.low?.length||0);
